@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Perrito con Techaucha</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<header>
+			<h1 id="titulo">Perrito con Techaucha</h1>
+			<button id="cart-btn" aria-label="Abrir carrito">🛒</button>
+		</header>
+
+		<main id="contenedor-cards"></main>
+
+		<aside id="cart" class="cart">
+			<button id="close-cart" aria-label="Cerrar carrito">×</button>
+			<h2>Tu Carrito</h2>
+			<div id="carrito-fisico-interno">
+				<p>Tu carrito está vacío.</p>
+			</div>
+			<div id="total"></div>
+			<button id="terminar-compra" class="terminar-compra">
+				Terminar compra
+			</button>
+		</aside>
+
+		<footer>
+			<p>&copy; 2025 Perrito con Techaucha. Todos los derechos reservados.</p>
+		</footer>
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+		<script src="./main.js"></script>
+	</body>
+</html>

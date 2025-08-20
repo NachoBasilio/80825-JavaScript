@@ -1,0 +1,150 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	font-family: Arial, sans-serif;
+	background-color: #f5f5f5;
+	margin: 0;
+}
+header {
+	background-color: #444;
+	color: #fff;
+	padding: 1rem 2rem;
+	text-align: center;
+	position: relative;
+}
+#cart-btn {
+	position: absolute;
+	top: 1rem;
+	right: 2rem;
+	background: none;
+	border: none;
+	font-size: 1.5rem;
+	cursor: pointer;
+	color: #fff;
+}
+main {
+	flex: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 2rem;
+}
+.product-card {
+	background-color: #fff;
+	border: 1px solid #ddd;
+	border-radius: 8px;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+	padding: 1.5rem;
+	text-align: center;
+	width: 300px;
+}
+.product-card img {
+	max-width: 100%;
+	border-radius: 4px;
+	margin-bottom: 1rem;
+}
+.product-card h2 {
+	margin-bottom: 0.5rem;
+	font-size: 1.25rem;
+}
+.product-card p {
+	font-size: 0.9rem;
+	color: #555;
+	margin-bottom: 1rem;
+}
+.product-card .price {
+	display: block;
+	font-size: 1.1rem;
+	font-weight: bold;
+	color: #222;
+	margin-bottom: 1rem;
+}
+.product-card button {
+	background-color: #444;
+	color: #fff;
+	border: none;
+	padding: 0.75rem 1.5rem;
+	border-radius: 4px;
+	cursor: pointer;
+}
+.product-card button:hover {
+	background-color: #333;
+}
+
+.cart {
+	position: fixed;
+	top: 0;
+	right: -320px;
+	width: 300px;
+	height: 100%;
+	background-color: #fff;
+	box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+	padding: 1.5rem;
+	transition: right 0.3s ease;
+	z-index: 1000;
+}
+.cart.show {
+	right: 0;
+}
+.cart h2 {
+	margin-bottom: 1rem;
+}
+#close-cart {
+	position: absolute;
+	top: 1rem;
+	right: 1rem;
+	background: none;
+	border: none;
+	font-size: 1.5rem;
+	cursor: pointer;
+}
+footer {
+	background-color: #444;
+	color: #fff;
+	text-align: center;
+	padding: 1rem 0;
+	margin-top: auto;
+}
+
+#contenedor-cards {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 1rem;
+}
+.total {
+	margin-top: 1rem;
+	font-size: 1.2rem;
+	font-weight: bold;
+	color: #444;
+	text-align: center;
+}
+
+.terminar-compra {
+	background-color: #28a745;
+	color: #fff;
+	border: none;
+	padding: 0.75rem 1.5rem;
+	border-radius: 4px;
+	cursor: pointer;
+	margin-top: 1rem;
+	width: 100%;
+	font-size: 1rem;
+}
+.bajar-uno-al-producto {
+	background-color: #dc3545;
+	color: #fff;
+	border: none;
+	padding: 0.5rem 1rem;
+	border-radius: 4px;
+	cursor: pointer;
+	margin-top: 0.5rem;
+	width: 100%;
+	font-size: 1rem;
+}
