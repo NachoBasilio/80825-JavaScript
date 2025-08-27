@@ -1,0 +1,44 @@
+{
+	"alumnos": [
+		{
+			"nombre": "María",
+			"apellido": "González",
+			"dni": "40123567",
+			"materias": [
+				{ "nombre": "Matemática", "nota": 8 },
+				{ "nombre": "Lengua", "nota": 9 },
+				{ "nombre": "Historia", "nota": 7 }
+			]
+		},
+		{
+			"nombre": "Juan",
+			"apellido": "Pérez",
+			"dni": "38987654",
+			"materias": [
+				{ "nombre": "Matemática", "nota": 6 },
+				{ "nombre": "Lengua", "nota": 7 },
+				{ "nombre": "Historia", "nota": 8 }
+			]
+		},
+		{
+			"nombre": "Lucía",
+			"apellido": "Martínez",
+			"dni": "42123456",
+			"materias": [
+				{ "nombre": "Matemática", "nota": 10 },
+				{ "nombre": "Lengua", "nota": 9 },
+				{ "nombre": "Historia", "nota": 10 }
+			]
+		},
+		{
+			"nombre": "Carlos",
+			"apellido": "Ramírez",
+			"dni": "37456321",
+			"materias": [
+				{ "nombre": "Matemática", "nota": 5 },
+				{ "nombre": "Lengua", "nota": 6 },
+				{ "nombre": "Historia", "nota": 7 }
+			]
+		}
+	]
+}

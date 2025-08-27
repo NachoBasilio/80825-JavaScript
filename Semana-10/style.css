@@ -1,0 +1,34 @@
+header {
+	background-color: #f8f9fa;
+	padding: 20px;
+	text-align: center;
+	font-family: Arial, sans-serif;
+	border-bottom: 2px solid #e0e0e0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+header img {
+	height: 50px;
+}
+
+.ir-a-login {
+	text-decoration: none;
+	color: #007bff;
+	font-weight: bold;
+}
+
+.titulo-bienvenida {
+	text-align: center;
+	font-family: 'Arial Black', sans-serif;
+	color: #333;
+	margin-top: 50px;
+}
+
+.texto-landing {
+	text-align: center;
+	font-family: 'Arial', sans-serif;
+	color: #666;
+	margin-top: 20px;
+}
